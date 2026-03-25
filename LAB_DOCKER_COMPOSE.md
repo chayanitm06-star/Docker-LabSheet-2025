@@ -378,8 +378,8 @@ git version 2.43.0
 </details>
 
 > **📝 บันทึกผล**: 
-```
-บันทึกรูปภาพผลการตรวจสอบ version
+``
+![alt text](image.png)
 ```
 ---
 
@@ -493,7 +493,7 @@ a1b2c3d4e5f6   nginx:alpine   "/docker-entrypoint.…"   2 seconds ago  Up 2 sec
 
 **บันทึกผลการทดลอง**
 ```
-บันทึกรูปผลการทดลอง คำสั่ง docker ps
+![alt text](image-1.png)
 ```
 
 เปิด Browser ไปที่ **http://localhost:8080** ควรเห็นหน้า `Welcome to nginx!`
@@ -504,8 +504,7 @@ a1b2c3d4e5f6   nginx:alpine   "/docker-entrypoint.…"   2 seconds ago  Up 2 sec
 
 ```
 
-
-
+docker: Error response from daemon: Conflict. The container name "/my-nginx" is already in use by container "ad3113d456aeadda2d2a6ec94797cc3ba72014bfb796bcb8112671da9f550b72". You have to remove (or rename) that container to be able to reuse that name.
 ---
 
 #### 2.2 ตรวจสอบ Container
